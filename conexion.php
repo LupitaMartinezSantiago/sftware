@@ -1,3 +1,4 @@
+#Datos importante que necesitan para ingresar
 <?php
     $host = "localhost";
     $user = "root";
