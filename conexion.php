@@ -1,4 +1,4 @@
-
+# Declaracion de los datos para rewalizar la conexion segura
 <?php
     $host = "localhost";
     $user = "root";
