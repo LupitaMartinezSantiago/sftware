@@ -1,4 +1,4 @@
-
+# Index indispensable para la conexion con los datos 
 <?php
 session_start();
 if (!empty($_SESSION['active'])) {
