@@ -1,4 +1,4 @@
-
+  # Declaracion de los datos 
 <?php
     $host = "localhost";
     $user = "root";
