@@ -43,7 +43,7 @@ if (!empty($_SESSION['active'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Iniciar Sessión</title>
+    <title>Iniciar Sessión</title> #Titulo que se le da a nuestra interfaz
     <link href="assets/css/styles.css" rel="stylesheet" />
     <script src="assets/js/all.min.js" crossorigin="anonymous"></script>
 </head>
@@ -63,6 +63,7 @@ if (!empty($_SESSION['active'])) {
                                 <div class="card-body">
                                     <form action="" method="POST">
                                         <div class="form-group">
+                                            #Declaracion de usuarrio
                                             <label class="small mb-1" for="usuario"><i class="fas fa-user"></i> Usuario</label>
                                             <input class="form-control py-4" id="usuario" name="usuario" type="text" placeholder="Ingrese usuario" required />
                                         </div>
