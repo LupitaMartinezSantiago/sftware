@@ -6,6 +6,7 @@ if (!empty($_SESSION['active'])) {
 } else {
     if (!empty($_POST)) {
         $alert = '';
+        #if que permitira al usuario solicitar la clave
         if (empty($_POST['usuario']) || empty($_POST['clave'])) {
             $alert = '<div class="alert alert-danger" role="alert">
             Ingrese su usuario y su clave
@@ -19,6 +20,7 @@ if (!empty($_SESSION['active'])) {
             $resultado = mysqli_num_rows($query);
             if ($resultado > 0) {
                 $dato = mysqli_fetch_array($query);
+                #Datos declarados
                 $_SESSION['active'] = true;
                 $_SESSION['idUser'] = $dato['idusuario'];
                 $_SESSION['nombre'] = $dato['nombre'];
