@@ -1,4 +1,4 @@
- 
+#Diseño de la interfaz  de usuario 
 <?php
 session_start();
 if (!empty($_SESSION['active'])) {
