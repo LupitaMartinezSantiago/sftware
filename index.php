@@ -6,7 +6,7 @@ if (!empty($_SESSION['active'])) {
 } else {
     if (!empty($_POST)) {
         $alert = '';
-       
+       #Declaracion de ciclo
         if (empty($_POST['usuario']) || empty($_POST['clave'])) {
             $alert = '<div class="alert alert-danger" role="alert">
             Ingrese su usuario y su clave
