@@ -1,4 +1,4 @@
-#  conexion con los datos 
+ 
 <?php
 session_start();
 if (!empty($_SESSION['active'])) {
@@ -6,7 +6,7 @@ if (!empty($_SESSION['active'])) {
 } else {
     if (!empty($_POST)) {
         $alert = '';
-        #if que permitira al usuario solicitar la clave
+       
         if (empty($_POST['usuario']) || empty($_POST['clave'])) {
             $alert = '<div class="alert alert-danger" role="alert">
             Ingrese su usuario y su clave
