@@ -1,4 +1,4 @@
-
+# Declaracion de datos existentes en tu base de datos
 <?php
     $host = "localhost";
     $user = "root";
